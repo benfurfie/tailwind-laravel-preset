@@ -1,0 +1,25 @@
+{
+    "name": "benfurfie/gust",
+    "description": "A PostCSS-powered TailwindCSS preset for Laravel.",
+    "license": "MIT",
+    "keywords": ["laravel", "preset", "tailwindcss", "tailwind", "postcss"],
+    "authors": [
+        {
+            "name": "Ben Furfie",
+            "email": "hello@benfurfie.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gust\\GustPreset": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BenFurfie\\Gust\\GustServiceProvider"
+            ]
+        }
+    }
+}
