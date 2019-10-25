@@ -11,14 +11,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "Gust\\GustPreset": "src/"
+            "BenFurfie\\Tailwind": "src/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "BenFurfie\\Gust\\GustServiceProvider"
+                "BenFurfie\\Tailwind\\TailwindServiceProvider"
             ]
         }
     }
