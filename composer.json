@@ -1,5 +1,5 @@
 {
-    "name": "benfurfie/gust",
+    "name": "benfurfie/laravel-preset-tailwind",
     "description": "A PostCSS-powered TailwindCSS preset for Laravel.",
     "license": "MIT",
     "keywords": ["laravel", "preset", "tailwindcss", "tailwind", "postcss"],
