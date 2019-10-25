@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "BenFurfie\\Tailwind": "src/"
+            "BenFurfie\\Tailwind\\": "src/"
         }
     },
     "minimum-stability": "stable",
