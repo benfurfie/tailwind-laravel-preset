@@ -18,7 +18,7 @@ class TailwindPreset extends Preset
 
     public static function cleanDirectories()
     {
-        File::cleanDirectory(resource_path('sass'));
+        File::deleteDirectory(resource_path('sass'));
         File::cleanDirectory(resource_path('js'));
         File::cleanDirectory(public_path('css/app.css'));
         File::cleanDirectory(public_path('js/app.js'));
@@ -26,6 +26,9 @@ class TailwindPreset extends Preset
 
     public static function bootstrap()
     {
+        // package.json
+        copy(__DIR__ . '/tailwind-stubs/package.json', base_path('package.json'));
+
         // Mix Config
         copy(__DIR__ . '/tailwind-stubs/webpack.mix.js', base_path('webpack.mix.js'));
 
